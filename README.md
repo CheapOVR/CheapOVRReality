@@ -5,15 +5,16 @@
 It was written in Unity, by one schoolboy, so I recommend you to using my guide.
 
 ## If you want to just use it...
-Select the "Releases" menu on the right side of your screen and download APK file from last release. Then install it on your phone and run. Interface in russian now, so, maybe you need a translator ;)
+Select the "Releases" menu on the right side of your screen and download APK file from last release. Then install it on your phone and run. Interface is in russian now, so, maybe you need a translator ;)
 
 ## If you want to compile this project...
 
-!!USE UNITY 2022.3.35f1!!
+!!USE UNITY 2022.3.35f1, INSTALLED WITH ANDROID BUILDING TOOLS!!
+Import project to Unity, by oppening it from Unity Hub, then connect your phone with USB cable, and turn USB debug mode on it. Allow installing apps from ADB.
 
 Set Unity config like this:
 
-## Project Settings
+### Project Settings
 ### Player
 #### Resolution and Presentation
 ![image](https://github.com/ZernovTechno/AR/assets/90546939/a37b0eda-85c2-4c09-a83c-4e5bcf3da646)
@@ -23,4 +24,12 @@ Set Unity config like this:
 
 #### Publishing Settings
 ![image](https://github.com/ZernovTechno/AR/assets/90546939/07f3d81a-a2b9-4af5-9bde-126a721199a9)
+
+And then open scene in explorer in the bottom of Unity. Scene located in Assets->Samples->MediaPipe Unity Plugin->0.14.4->Official Solutions->Scenes->Hand Tracking->Hand Tracking.unity
+
+Then click File->Build Settings->Add Open Scenes, check added scene.
+
+Now you can build it and run on a phone. Check your phone connection, and click "Build And Run" in Build Settings/File menu.
+
+## Congrats!
 
