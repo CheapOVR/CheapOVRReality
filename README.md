@@ -1,3 +1,5 @@
+[README НА РУССКОМ](./READMERUS.md)
+
 # Hey! 
 ## This is my AR project, working only on a Android smartphone. 
 (and VR glasses)
