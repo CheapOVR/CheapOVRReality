@@ -11,9 +11,6 @@ Select the "Releases" menu on the right side of your screen and download APK fil
 
 ## If you want to compile this project...
 
-# Doesn't work to compile for now. Should be updated in the 2-3 days. Unitypackage, that you can import in your project can be found at releases page. I don't sure that can work.
-# Else, you can set up your unity, and just wait...
-
 !!USE UNITY 2022.3.35f1, INSTALLED WITH ANDROID BUILDING TOOLS!!
 Import project to Unity, by oppening it from Unity Hub, then connect your phone with USB cable, and turn USB debug mode on it. Allow installing apps from ADB.
 
